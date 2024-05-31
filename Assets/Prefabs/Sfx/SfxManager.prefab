@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &675270746952428534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6594801669551374339}
+  - component: {fileID: 6931842544907030574}
+  m_Layer: 0
+  m_Name: SfxManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6594801669551374339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675270746952428534}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.476067, y: 14.258708, z: -0.018492289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6931842544907030574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675270746952428534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97aa3a55ce8f4e489c8b022fc6ecebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerSfx:
+  - {fileID: 11400000, guid: a917cfa1ccebe3542a36312d4fb01086, type: 2}
+  - {fileID: 11400000, guid: 3e26e170e28931049ba3eea421d2e9a5, type: 2}
+  - {fileID: 11400000, guid: 44ed8c31604838c4ca8c58aa1173da23, type: 2}
+  - {fileID: 11400000, guid: 815a38551855ce944ba4bdc37551a4c6, type: 2}
+  - {fileID: 11400000, guid: c0a4f5f461686c249be668c4e1aaeda2, type: 2}
+  - {fileID: 11400000, guid: fb63f7761bea962428537a7fdafe1554, type: 2}
+  - {fileID: 11400000, guid: 97971d0021385d444adfb4216a156cf7, type: 2}
+  - {fileID: 11400000, guid: 84418ae9e63168a4e843b213904c8468, type: 2}
+  _CrystalSfx:
+  - {fileID: 11400000, guid: 8c9c51326d2394847bcaf9395a776df0, type: 2}
+  - {fileID: 11400000, guid: 53306853ddad857418b08c896920c56e, type: 2}
+  _enemyCrystalSfx:
+  - {fileID: 11400000, guid: 4a09460c515bb074e9744d552f4cf748, type: 2}
+  _puzzelCrystalSfx:
+  - {fileID: 11400000, guid: 0858b30dedb274e449b6861d08424ade, type: 2}
+  - {fileID: 11400000, guid: c36ba275909165a419367feb2254c9d5, type: 2}
+  - {fileID: 11400000, guid: 90bbdc57cdd39ca4095e32129d4585ac, type: 2}
+  - {fileID: 11400000, guid: 2f929815cf6a9d244baa26a3ec332864, type: 2}
+  - {fileID: 11400000, guid: 8712a3ceb4382574c83b50a32bc5fd4a, type: 2}
+  _gameSFX:
+  - {fileID: 11400000, guid: 254112c3596e7544b9780508b9ad157a, type: 2}
+  - {fileID: 11400000, guid: f17f543d4de6d3b4c97d7e85acef40ea, type: 2}
+  _audioSource: {fileID: 3986109216521264691, guid: 28011ebd12272fc4395ffc92dbadbaa7, type: 3}

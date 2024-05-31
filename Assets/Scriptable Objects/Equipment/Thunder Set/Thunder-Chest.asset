@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1a6189611ea814bb222fa73dcc61d5, type: 3}
+  m_Name: Thunder-Chest
+  m_EditorClassIdentifier: 
+  EquipmentName: Chest
+  EquipmentIcon: {fileID: 21300000, guid: cd1cd29050d769d469c99e12d50d739c, type: 3}
+  SetName: Thunder
+  SetIcon: {fileID: 21300000, guid: f50776fa157eac242bb02f77c0e9bc45, type: 3}
+  Level: 1
+  BuffValue:
+  - 10
+  - 30
+  - 50
+  - 70
+  - 100
+  BuffDescription: 
